@@ -9,7 +9,8 @@ The inference pipline is two stages. First, yolov8 detection model crops objects
 ## Photorealistic Dara
 The dataset is rendered by Blender and the models of objects are scanned by luma, which is a Nerf based 3D scanner app.
 
-Example:
+Example image:
+
 ![dataset example](./imgs/dataset.png)
 
 ## Environment
@@ -58,5 +59,6 @@ python train.py --cfg exps_cfg/bop/bop_no_init.yaml
 ```bash
 ./scripts/inference.sh ../imgs/test.jpeg
 ```
-Poses visualization.
+Poses visualization:
+
 ![inference result](./imgs/result.png)
