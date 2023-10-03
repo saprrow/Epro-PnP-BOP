@@ -2,7 +2,7 @@
 
 This is modified from the official implementation of End-to-End Probabilistic Perspective-n-Points for 6DoF object pose estimation. [[epro-pnp](https://github.com/tjiiv-cprg/EPro-PnP.git)]
 
-The project is totally trained with virtual dataset, which is Bop dataset format.  
+The project is totally trained with virtual dataset, which is in Bop dataset format.  
 
 The inference pipline is two stages. First, yolov8 detection model crops objects from origin images. Then ERro-PnP-6DoF estimation objects poses from croped images. 
 
