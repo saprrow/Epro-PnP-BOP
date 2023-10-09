@@ -4,7 +4,7 @@ This is modified from the official implementation of End-to-End Probabilistic Pe
 
 The project is totally trained with virtual dataset, which is in Bop dataset format.  
 
-The inference pipline is two stages. First, yolov8 detection model crops objects from origin images. Then ERro-PnP-6DoF estimation objects poses from croped images. 
+The inference pipline is two stages. First, yolov8 detection model crops objects from origin images. Then ERro-PnP-6DoF estimates objects poses from croped images. 
 
 ## Photorealistic Dara
 The dataset is rendered by Blender and the models of objects are scanned by luma, which is a Nerf based 3D scanner app.
